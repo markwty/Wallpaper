@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="shiftFactor"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Shift factor (0-1)" />
+</androidx.preference.PreferenceScreen>

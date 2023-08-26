@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="100"
+        android:key="drinkSize"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Size of drink (30 - 500)" />
+    <EditTextPreference
+        android:defaultValue="100"
+        android:key="charSize"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Size of character (30 - 200)" />
+    <EditTextPreference
+        android:defaultValue="50"
+        android:key="handSize"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Size of hand (30 - 200)" />
+    <EditTextPreference
+        android:defaultValue="300"
+        android:key="maxSize"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Maximum size of body (size of character - 800)" />
+</androidx.preference.PreferenceScreen>

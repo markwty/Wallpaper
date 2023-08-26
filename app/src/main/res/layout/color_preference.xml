@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/widget_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/colorBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        tools:ignore="ObsoleteLayoutParam" />
+
+    <SeekBar
+        android:id="@+id/redSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_weight="1"
+        android:max="255"
+        tools:ignore="ObsoleteLayoutParam" />
+
+    <SeekBar
+        android:id="@+id/greenSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:max="255"
+        tools:ignore="ObsoleteLayoutParam" />
+    <SeekBar
+        android:id="@+id/blueSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:max="255"
+        tools:ignore="ObsoleteLayoutParam" />
+</LinearLayout>

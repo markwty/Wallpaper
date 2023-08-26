@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="200"
+        android:key="puffSize"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Size of creature (50 - 300)" />
+    <EditTextPreference
+        android:defaultValue="50"
+        android:key="sizeIncrement"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Size increase (10 - 100)" />
+    <EditTextPreference
+        android:defaultValue="800"
+        android:key="maxSize"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Maximum size of creature (50 - 1000)" />
+    <EditTextPreference
+        android:defaultValue="200"
+        android:key="steps"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Number of steps (20 - 500)" />
+</androidx.preference.PreferenceScreen>

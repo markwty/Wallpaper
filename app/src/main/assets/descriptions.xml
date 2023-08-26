@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+    <item>
+        <title>Factual tree</title>
+        <sensor_enabled>True</sensor_enabled>
+        <image>tree_sketch</image>
+        <description>Tilt to alter the angle and number of branching</description>
+    </item>
+    <item>
+        <title>Snowflake</title>
+        <sensor_enabled>True</sensor_enabled>
+        <image>snowflake_sketch</image>
+        <description>Make your own artwork. Place your phone faceup to lock artwork, then set to display the locked artwork.</description>
+    </item>
+    <!--<item>
+        <title>Stars</title>
+        <sensor_enabled>True</sensor_enabled>
+        <image>ic_launcher_background</image>
+        <description>Spoilt</description>
+    </item>-->
+    <item>
+        <title>Seasons</title>
+        <sensor_enabled>False</sensor_enabled>
+        <image>seasons_sketch</image>
+        <description>Click to change seasons</description>
+    </item>
+    <!--<item>
+        <title>Ball</title>
+        <sensor_enabled>False</sensor_enabled>
+        <image>ball_sketch</image>
+        <description>A ball... Something like that...</description>
+    </item>-->
+    <item>
+        <title>Worm</title>
+        <sensor_enabled>True</sensor_enabled>
+        <image>worm_sketch</image>
+        <description>Click on a place for the worm to hang. While it is crawling, you can press it to make it drop back to the ground.</description>
+    </item>
+    <item>
+        <title>Gecko</title>
+        <sensor_enabled>True</sensor_enabled>
+        <image>gecko_sketch</image>
+        <description>Gecko that likes to stick it tongue to something</description>
+    </item>
+    <item>
+        <title>Puff</title>
+        <sensor_enabled>False</sensor_enabled>
+        <image>puffy_sketch</image>
+        <description>Click on creature to expand it or elsewhere to move the creature. When it gets too big, it flows around randomly</description>
+    </item>
+    <item>
+        <title>Bubbletea</title>
+        <sensor_enabled>True</sensor_enabled>
+        <image>bubbletea_sketch</image>
+        <description>Tilt to pour drink, click to change between bubble tea and water. Don't ask me why there is unlimited supply.</description>
+    </item>
+    <item>
+        <title>Tentacle</title>
+        <sensor_enabled>False</sensor_enabled>
+        <image>tentacle_sketch</image>
+        <description>The tentacle follows you</description>
+    </item>
+    <item>
+        <title>Blue growth</title>
+        <sensor_enabled>False</sensor_enabled>
+        <image>blue_growth_sketch</image>
+        <description>Simplified from the work of Elisabeth TheAwsome (Open processing)</description>
+    </item>
+</items>

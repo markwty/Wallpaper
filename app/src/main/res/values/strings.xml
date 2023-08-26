@@ -1,0 +1,11 @@
+<resources>
+    <string name="test">Test</string>
+    <string name="app_name">Wallpaper</string>
+    <string name="image">image</string>
+    <string name="wallpaper_description">Wallpaper Description</string>
+    <string name="item_description">%1$s\n%2$s</string>
+    <string name="preferences">Preferences</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="set_activity">Set Activity</string>
+    <string name="empty"></string>
+</resources>

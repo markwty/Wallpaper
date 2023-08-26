@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="10"
+        android:key="crawlSpeed"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Crawling speed (1 - 100)" />
+    <EditTextPreference
+        android:defaultValue="5"
+        android:key="fallSpeed"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Falling speed (1 - 100)" />
+    <EditTextPreference
+        android:defaultValue="50"
+        android:key="wormSize"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Size of worm (50 - 400)" />
+</androidx.preference.PreferenceScreen>

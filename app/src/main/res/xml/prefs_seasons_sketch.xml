@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="25"
+        android:key="numFallObjects"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Number of falling objects (10 - 50)" />
+    <EditTextPreference
+        android:defaultValue="0.4"
+        android:key="speedFactor"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Speed of falling objects (0.4 - 3)" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        android:defaultValue="6"
+        android:key="numberOfParts"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Number of parts" />
+    <!--
+    <EditTextPreference
+        android:defaultValue="255"
+        android:key="red"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Red (0-255)" />
+    <EditTextPreference
+        android:defaultValue="255"
+        android:key="green"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Green (0-255)" />
+    <EditTextPreference
+        android:defaultValue="255"
+        android:key="blue"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Blue (0-255)" />
+    -->
+    <com.example.wallpaper.ColorPreference
+        android:key="color"
+        android:title="Color (RGB)" />
+</androidx.preference.PreferenceScreen>
